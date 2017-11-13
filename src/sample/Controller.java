@@ -1,5 +1,7 @@
 package sample;
 
+import javafx.application.Platform;
+
 public class Controller {
     public void addCarButtonClicked () {
         System.out.println("Add new Car!");
@@ -14,6 +16,6 @@ public class Controller {
     }
 
     public void closeProjectButtonClicked() {
-        System.out.println("Close Project!");
+        Platform.exit();
     }
 }
