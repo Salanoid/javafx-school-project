@@ -7,29 +7,32 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-   <children>
-      <BorderPane prefHeight="600.0" prefWidth="600.0">
-         <top>
-            <Button mnemonicParsing="false" onAction="#buyCarButtonClicked" text="Buy Car" BorderPane.alignment="CENTER" />
-         </top>
-         <left>
-            <Button mnemonicParsing="false" onAction="#displayCarsButtonClicked" text="Display Cars" BorderPane.alignment="CENTER" />
-         </left>
-         <right>
-            <Button mnemonicParsing="false" onAction="#contactButtonClicked" text="Car Parts" BorderPane.alignment="CENTER" />
-         </right>
-         <bottom>
-            <Button mnemonicParsing="false" onAction="#closeProjectButtonClicked" text="Close Program" BorderPane.alignment="CENTER" />
-         </bottom>
-         <center>
-            <Label text="Car System Management" BorderPane.alignment="CENTER" />
-         </center></BorderPane>
-   </children>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
-      <ColumnConstraints />
+      <ColumnConstraints/>
    </columnConstraints>
    <rowConstraints>
-      <RowConstraints />
+      <RowConstraints/>
    </rowConstraints>
+   <BorderPane prefHeight="600.0" prefWidth="600.0">
+      <top>
+         <Button mnemonicParsing="false" onAction="#buyCarButtonClicked" text="Buy Car" BorderPane.alignment="CENTER"/>
+      </top>
+      <left>
+         <Button mnemonicParsing="false" onAction="#displayCarsButtonClicked" text="Display Cars"
+                 BorderPane.alignment="CENTER"/>
+      </left>
+      <right>
+         <Button mnemonicParsing="false" onAction="#contactButtonClicked" text="Contact"
+                 BorderPane.alignment="CENTER"/>
+      </right>
+      <bottom>
+         <Button mnemonicParsing="false" onAction="#closeProjectButtonClicked" text="Close Program"
+                 BorderPane.alignment="CENTER"/>
+      </bottom>
+      <center>
+         <Label text="Car System Management" BorderPane.alignment="CENTER"/>
+      </center>
+   </BorderPane>
 </GridPane>
