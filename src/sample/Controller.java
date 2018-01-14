@@ -84,7 +84,6 @@ public class Controller {
 
         displayCarsFrame.setLocation(600, 400);
         displayCarsFrame.pack();
-        Platform.exit();
     }
 
     public void contactButtonClicked() throws IOException {
