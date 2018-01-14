@@ -11,13 +11,13 @@
    <children>
       <BorderPane prefHeight="600.0" prefWidth="600.0">
          <top>
-            <Button mnemonicParsing="false" onAction="#addCarButtonClicked" text="Add Car" BorderPane.alignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#addCarButtonClicked" text="Buy Car" BorderPane.alignment="CENTER" />
          </top>
          <left>
             <Button mnemonicParsing="false" onAction="#displayCarsButtonClicked" text="Display Cars" BorderPane.alignment="CENTER" />
          </left>
          <right>
-            <Button mnemonicParsing="false" onAction="#deleteCarButtonClicked" text="Delete Car" BorderPane.alignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#deleteCarButtonClicked" text="Car Parts" BorderPane.alignment="CENTER" />
          </right>
          <bottom>
             <Button mnemonicParsing="false" onAction="#closeProjectButtonClicked" text="Close Program" BorderPane.alignment="CENTER" />
