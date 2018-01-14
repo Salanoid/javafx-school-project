@@ -67,15 +67,22 @@ public class Controller {
     }
 
     public void displayCarsButtonClicked() {
-        JFrame displayCarsFrame = new JFrame("Buy Car");
+        JFrame displayCarsFrame = new JFrame("Display Cars");
         displayCarsFrame.setVisible(true);
         JPanel displayCars = new JPanel();
-        displayCarsFrame.getContentPane().add(displayCars);
-        JLabel bmw = new JLabel("BMW");
+        displayCarsFrame.getContentPane().add(new JScrollPane(displayCars));
+
+        displayCars.add(new JLabel(new ImageIcon("image/bmw.jpeg")));
+        displayCars.add(new JLabel("BMW X5, Pret: 65.569 euro"));
+
+        displayCars.add(new JLabel(new ImageIcon("image/audi.jpg")));
+        displayCars.add(new JLabel("Audi A5, Pret: 37.794 euro"));
+
+        displayCars.add(new JLabel(new ImageIcon("image/dacia.jpg")));
+        displayCars.add(new JLabel("Dacia Logan, Pret: 6.950 euro"));
 
 
         displayCarsFrame.setLocation(600, 400);
-        displayCars.add(bmw);
         displayCarsFrame.pack();
         Platform.exit();
     }
