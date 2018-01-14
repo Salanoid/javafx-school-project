@@ -3,16 +3,16 @@ package sample;
 import javafx.application.Platform;
 
 public class Controller {
-    public void addCarButtonClicked () {
+    public void buyCarButtonClicked () {
         System.out.println("Buy car");
     }
 
     public void displayCarsButtonClicked() {
-        System.out.println("There are all the cars");
+        System.out.println("Display cars");
     }
 
-    public void deleteCarButtonClicked() {
-        System.out.println("Car Parts");
+    public void contactButtonClicked() {
+        System.out.println("Contact");
     }
 
     public void closeProjectButtonClicked() {
